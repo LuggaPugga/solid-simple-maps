@@ -15,6 +15,7 @@
 	"files": [
 		"dist"
 	],
+	"readme": "../../README.md",
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/LuggaPugga/solid-simple-maps.git"
