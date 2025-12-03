@@ -7,7 +7,7 @@
 			"outputs": ["dist/**"]
 		},
 		"docs#build": {
-			"outputs": [".vitepress/dist/**"]
+			"outputs": [".vitepress/**"]
 		},
 		"watch": {
 			"cache": false,
