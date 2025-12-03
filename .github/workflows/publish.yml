@@ -30,7 +30,6 @@ jobs:
 
       - name: Publish to npm
         working-directory: packages/solid-simple-maps
-        run: bun publish
+        run: bun publish --access public
         env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-
+          NPM_CONFIG_TOKEN: ${{ secrets.NPM_TOKEN }}
