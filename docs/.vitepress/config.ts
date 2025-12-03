@@ -1,10 +1,21 @@
-import { defineConfig } from "vitepress";
+import { defineConfig, type HeadConfig } from "vitepress";
+
+const analyticsScript: HeadConfig = [
+	"script",
+	{
+		defer: "true",
+		src: "https://assets.onedollarstats.com/stonks.js",
+		"data-hash-routing": "false",
+		"data-autocollect": "true",
+	},
+];
 
 export default defineConfig({
 	title: "Solid Simple Maps",
 	description:
 		"Create beautiful SVG maps in SolidJS with d3-geo and topojson using a declarative API.",
 	base: "/",
+	head: [analyticsScript],
 	themeConfig: {
 		nav: [
 			{ text: "Home", link: "/" },
