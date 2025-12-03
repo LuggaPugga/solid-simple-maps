@@ -1,0 +1,38 @@
+{
+	"name": "solid-simple-maps-monorepo",
+	"version": "1.0.0",
+	"private": true,
+	"workspaces": [
+		"packages/*",
+		"example",
+		"docs"
+	],
+	"scripts": {
+		"build": "bun run --filter solid-simple-maps build",
+		"watch": "bun run --filter solid-simple-maps watch",
+		"dev": "bun run --filter example dev",
+		"test": "mocha './tests/**/*.spec.js'"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/LuggaPugga/solid-simple-maps.git"
+	},
+	"keywords": [
+		"solidjs",
+		"solid",
+		"maps",
+		"charts",
+		"worldmap",
+		"usa",
+		"d3-geo"
+	],
+	"author": "LuggaPugga (https://github.com/LuggaPugga)",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/LuggaPugga/solid-simple-maps/issues"
+	},
+	"homepage": "https://github.com/LuggaPugga/solid-simple-maps#readme",
+	"devDependencies": {
+		"@biomejs/biome": "2.3.8"
+	}
+}
