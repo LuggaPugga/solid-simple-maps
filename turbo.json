@@ -9,6 +9,7 @@
 			"outputs": ["dist/**"]
 		},
 		"example#build": {
+			"dependsOn": ["solid-simple-maps#build"],
 			"outputs": ["dist/**"]
 		},
 		"docs#build": {
