@@ -34,8 +34,8 @@ npm install solid-simple-maps
 
 ## Docs
 
-[LINK_TO_DOCS]
+https://solid-simple-maps.luggapugga.dev
 
 ## Example
 
-[LINK_TO_EXAMPLE]
+https://solid-simple-maps-example.luggapugga.dev
