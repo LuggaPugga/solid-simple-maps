@@ -1,7 +1,8 @@
 {
 	"name": "solid-simple-maps-monorepo",
-	"version": "1.0.0",
-	"private": true,
+	"version": "1.0.1",
+	"private": false,
+	"readme": "../README.md",
 	"workspaces": [
 		"packages/*",
 		"example",
