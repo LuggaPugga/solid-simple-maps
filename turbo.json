@@ -3,7 +3,12 @@
 	"ui": "tui",
 	"tasks": {
 		"build": {
-			"dependsOn": ["^build"],
+			"dependsOn": ["solid-simple-maps#build", "example#build", "docs#build"]
+		},
+		"solid-simple-maps#build": {
+			"outputs": ["dist/**"]
+		},
+		"example#build": {
 			"outputs": ["dist/**"]
 		},
 		"docs#build": {
