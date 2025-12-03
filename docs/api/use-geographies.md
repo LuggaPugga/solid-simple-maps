@@ -15,12 +15,19 @@ const { geographies, outline, borders } = useGeographies({
 
 ## Parameters
 
-- **geography**: Geography input (URL, Topology, or GeoJSON)
-- **parseGeographies**: Optional function to filter/transform features
+### geography
+
+- **Type**: `string | Topology | GeoJSON.FeatureCollection | GeoJSON.Feature[] | GeoJSON.Feature`
+- **Description**: URL to TopoJSON/GeoJSON file, or the data directly
+
+### parseGeographies
+
+- **Type**: `(features: GeoJSON.Feature[]) => GeoJSON.Feature[]`
+- **Description**: Optional function to filter or transform features before rendering
 
 ## Returns
 
-- **geographies**: Signal containing prepared geography features
-- **outline**: Signal containing outline mesh
-- **borders**: Signal containing border mesh
+- **geographies**: Signal containing array of `PreparedFeature` objects (each with `rsmKey` and `svgPath` properties)
+- **outline**: Signal containing outline mesh (or `undefined` if not available)
+- **borders**: Signal containing border mesh (or `undefined` if not available)
 

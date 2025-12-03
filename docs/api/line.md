@@ -19,12 +19,12 @@ interface LineProps extends JSX.PathSVGAttributes<SVGPathElement> {
 ### from / to
 
 - **Type**: `[number, number]`
-- **Description**: Start and end coordinates for a simple line
+- **Description**: Start and end coordinates `[longitude, latitude]` for a simple line
 
 ### coordinates
 
 - **Type**: `[number, number][]`
-- **Description**: Array of coordinates for a multi-point line
+- **Description**: Array of coordinates `[longitude, latitude]` for a multi-point line
 
 ### stroke
 

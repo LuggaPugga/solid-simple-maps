@@ -6,7 +6,7 @@ Renders an individual geographic feature as an SVG path.
 
 ```tsx
 interface GeographyProps extends JSX.PathSVGAttributes<SVGPathElement> {
-  geography: PreparedGeography;
+  geography: PreparedFeature;
   onMouseEnter?: (evt: MouseEvent) => void;
   onMouseLeave?: (evt: MouseEvent) => void;
   onMouseDown?: (evt: MouseEvent) => void;
@@ -24,7 +24,7 @@ interface GeographyProps extends JSX.PathSVGAttributes<SVGPathElement> {
 
 ### geography
 
-- **Type**: `PreparedGeography`
+- **Type**: `PreparedFeature`
 - **Required**: `true`
 - **Description**: Prepared geography object from Geographies component
 

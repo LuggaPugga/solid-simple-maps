@@ -10,6 +10,9 @@ hero:
       text: Get Started
       link: /guide/getting-started
     - theme: alt
+      text: View Example
+      link: https://solid-simple-maps-example.luggapugga.dev
+    - theme: alt
       text: View on GitHub
       link: https://github.com/LuggaPugga/solid-simple-maps
 

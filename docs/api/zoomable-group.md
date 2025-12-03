@@ -24,7 +24,7 @@ interface ZoomableGroupProps extends JSX.GSVGAttributes<SVGGElement> {
 
 - **Type**: `[number, number]`
 - **Default**: `[0, 0]`
-- **Description**: Initial center point `[x, y]` in pixel coordinates
+- **Description**: Initial center point `[longitude, latitude]` in geographic coordinates
 
 ### zoom
 
