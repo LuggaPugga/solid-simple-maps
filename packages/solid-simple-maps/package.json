@@ -1,6 +1,6 @@
 {
 	"name": "solid-simple-maps",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "An svg map chart component built with and for SolidJS",
 	"main": "./dist/index.mjs",
 	"module": "./dist/index.mjs",
@@ -15,7 +15,6 @@
 	"files": [
 		"dist"
 	],
-	"readme": "../../README.md",
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/LuggaPugga/solid-simple-maps.git"
