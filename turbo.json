@@ -4,7 +4,10 @@
 	"tasks": {
 		"build": {
 			"dependsOn": ["^build"],
-			"outputs": ["dist/**", ".vitepress/**"]
+			"outputs": ["dist/**"]
+		},
+		"docs#build": {
+			"outputs": [".vitepress/dist/**"]
 		},
 		"watch": {
 			"cache": false,
