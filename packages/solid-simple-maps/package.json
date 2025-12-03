@@ -1,6 +1,6 @@
 {
 	"name": "solid-simple-maps",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "An svg map chart component built with and for SolidJS",
 	"main": "./dist/index.mjs",
 	"module": "./dist/index.mjs",
