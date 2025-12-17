@@ -34,7 +34,7 @@
 	},
 	"homepage": "https://github.com/LuggaPugga/solid-simple-maps#readme",
 	"devDependencies": {
-		"@biomejs/biome": "2.3.8",
+		"@biomejs/biome": "2.3.10",
 		"turbo": "^2.6.1"
 	}
 }
