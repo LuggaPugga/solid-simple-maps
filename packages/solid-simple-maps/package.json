@@ -42,7 +42,7 @@
 		"rolldown-plugin-solid": "^0.2.1",
 		"solid-js": "^1.8.0",
 		"tsdown": "0.16.0",
-		"typescript": "^5.3.0"
+		"typescript": "^6.0.0"
 	},
 	"peerDependencies": {
 		"solid-js": "^1.8.0"
